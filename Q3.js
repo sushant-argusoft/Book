@@ -4,7 +4,7 @@
 db.books.find(
                 {$and:
                     [{pageCount:{$gt : 350}},
-                    {pageCount:{$lt : 450}}]
+                    {pageCount:{$lt : 500}}]
                 }
                 ,{_id: 0 , title : 1}
             )
