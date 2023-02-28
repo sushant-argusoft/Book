@@ -1,0 +1,1 @@
+mongoimport --file books.json -d book -c books --drop --jsonArray
